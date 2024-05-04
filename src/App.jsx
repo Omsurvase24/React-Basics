@@ -1,12 +1,9 @@
-import Student from "./Student";
+import List from "./List";
 
 function App() {
   return (
     <>
-      <Student name="Spongebob" age={30} isStudent={true}></Student>
-      <Student name="Patrick" age={39} isStudent={true}></Student>
-      <Student name="Squidward" age={50} isStudent={false}></Student>
-      <Student></Student>
+      <List></List>
     </>
   );
 }
