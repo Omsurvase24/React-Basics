@@ -2,32 +2,25 @@ import React, { useState } from "react";
 
 function MyComponent() {
 
-    const [name, setName] = useState("Guest");
-    const [age, setAge] = useState(0);
-    const [isEmployed, setIsEmployed] = useState(false);
 
-    const updateName = () => {
-        setName("Spongebob");
+    const [name, setName] = useState("");
+    const [quantity, setQuantity] = useState();
+
+    function handleQuantityChange(e) {
+        setQuantity(e.target.value);
     }
 
-    const incrementAge = () => {
-        setAge(age + 1);
-    }
-
-    const employment = () => {
-        setIsEmployed(true);
+    function handleNameChange(event) {
+        setName(event.target.value);
     }
 
     return (
         <div>
+            <input type="text" value={name} onChange={handleNameChange} />
             <p>Name: {name}</p>
-            <button onClick={updateName}>Set Name</button>
 
-            <p>Age: {age}</p>
-            <button onClick={incrementAge}>Increment Age</button>
-
-            <p>isEmployed: {isEmployed ? "Yes" : "No"}</p>
-            <button onClick={employment}>Employment status</button>
+            <input type="number" value={quantity} onChange={handleQuantityChange} />
+            <p>Quantity: {quantity}</p>
         </div>
     );
 
