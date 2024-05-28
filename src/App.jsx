@@ -1,9 +1,9 @@
-import MyComponent from "./MyComponent";
+import UpdateObj from "./UpdateObj";
 
 function App() {
   return (
     <>
-      <MyComponent></MyComponent>
+      <UpdateObj></UpdateObj>
     </>
   );
 }
