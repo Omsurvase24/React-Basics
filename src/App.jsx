@@ -1,9 +1,9 @@
-import UpdateArr from "./UpdateArr";
+import UpdateArrObj from "./UpdateArrObj";
 
 function App() {
   return (
     <>
-      <UpdateArr></UpdateArr>
+      <UpdateArrObj></UpdateArrObj>
     </>
   );
 }
