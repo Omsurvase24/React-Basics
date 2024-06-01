@@ -1,9 +1,9 @@
-import UpdateArrObj from "./UpdateArrObj";
+import ToDoList from "./todo";
 
 function App() {
   return (
     <>
-      <UpdateArrObj></UpdateArrObj>
+      <ToDoList></ToDoList>
     </>
   );
 }
