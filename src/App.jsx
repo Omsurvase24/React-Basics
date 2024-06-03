@@ -1,9 +1,9 @@
-import UseEffectFn from "./UseEffect2";
+import DigitalClock from "./DigitalClock";
 
 function App() {
   return (
     <>
-      <UseEffectFn></UseEffectFn>
+      <DigitalClock></DigitalClock>
     </>
   );
 }
