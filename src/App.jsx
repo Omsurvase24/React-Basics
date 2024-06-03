@@ -1,9 +1,9 @@
-import ToDoList from "./todo";
+import UseEffectFn from "./UseEffect";
 
 function App() {
   return (
     <>
-      <ToDoList></ToDoList>
+      <UseEffectFn></UseEffectFn>
     </>
   );
 }
