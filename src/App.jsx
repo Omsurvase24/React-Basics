@@ -1,4 +1,4 @@
-import UseEffectFn from "./UseEffect";
+import UseEffectFn from "./UseEffect2";
 
 function App() {
   return (
