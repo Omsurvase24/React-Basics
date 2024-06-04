@@ -1,9 +1,9 @@
-import UseContextA from "./UseContextA";
+import UseRef from "./UseRef";
 
 function App() {
   return (
     <>
-      <UseContextA></UseContextA>
+      <UseRef></UseRef>
     </>
   );
 }
