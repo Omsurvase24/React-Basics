@@ -1,9 +1,9 @@
-import DigitalClock from "./DigitalClock";
+import UseContextA from "./UseContextA";
 
 function App() {
   return (
     <>
-      <DigitalClock></DigitalClock>
+      <UseContextA></UseContextA>
     </>
   );
 }
